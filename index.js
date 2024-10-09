@@ -29,4 +29,10 @@ for (let i = n; i >= 1; i--) {
     let space  = '  ';
     console.log(space.repeat(n-i)+str.repeat(i));
 }
+for (let i = 1; i <= n; i++) {
+    let str = "* ";
+    let space  = '  ';
+    console.log(space.repeat((n-i))+str.repeat(i));
+}
+
 
